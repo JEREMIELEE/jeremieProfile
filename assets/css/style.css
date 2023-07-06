@@ -476,6 +476,14 @@ h6 {
   color: #2ac7db;
 }
 
+#hero h1:hover{
+  /* Darker background on mouse-over */
+  .btnmayor:hover {
+    background-color: darkblue;
+    color: white;
+    }
+}
+
 #hero p {
   color: #fff;
   margin-bottom: 50px;
