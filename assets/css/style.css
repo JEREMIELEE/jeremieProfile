@@ -768,7 +768,20 @@ body{
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
+  /* background-image: url('assets/img/bisu.jpg'); */
 }
+
+.resume .resume-logo{
+  background-image: url('assets/img/bisu.jpg'); 
+} 
+
+.resume .resume-logo1{
+  background-image: url('assets/img/sta.jpg'); 
+} 
+
+.resume .resume-logo2{
+  background-image: url('assets/img/pes.jpg'); 
+} 
 
 .resume .resume-item h4 {
   line-height: 18px;
