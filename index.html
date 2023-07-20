@@ -88,7 +88,7 @@
   <header id="header" style="background-color: black;">
     <div class="d-flex flex-column">
       <div class="profile">
-        <img src="assets/img/jeys.png" alt="img-fluid" class="img-fluid rounded-circle"> 
+        <img src="assets/img/jeys.png" alt="img-fluid" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Jeremie S. Lafuente</a></h1>
         <center><h5 style="color: rgb(20,157,182)">Web Developer</h5></center>
         <div class="social-links mt-3 text-center">
@@ -659,7 +659,7 @@
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div></div>
             </div></div>
-            
+
           </div>
           </div>
         </div>
@@ -1097,29 +1097,15 @@
             email: document.getElementById('email').value,
             subject: document.getElementById('subject').value,
             message: document.getElementById('message').value,
-            
+
             };
-        
+
             emailjs.send('service_ztzm1hl', 'template_9p7dyeg', templateParams,'9y_K1B8XOqxRj0osy')
             .then(function(response) {
-
-              swal({
-                title: "Sent Successfully!",
-              })
-
               console.log('SUCCESS!', response.status, response.text);
             }, function(error) {
-
-              swal({
-                title: "Sent Successfully!",
-              })
-
               console.log('FAILED...', error);
             });
-            document.getElementById('name').value="";
-            document.getElementById('email').value="";
-            document.getElementById('subject').value="";
-            document.getElementById('message').value="";
           }
   </script>
 
