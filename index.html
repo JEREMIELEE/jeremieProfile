@@ -33,7 +33,7 @@
   <style media="all">
 
  .btnmayor{
-  background-color: royalblue;
+  background-color: transparent;
   color: rgb(30, 26, 26);
   padding: 10px 30px;
   cursor: pointer;
@@ -43,6 +43,7 @@
   border-right: 2px solid darkblue;
   border-left: 2px solid darkblue;
   border-top: 1px solid darkblue;
+
  }
 
 
@@ -64,17 +65,30 @@
       }
 </style>
 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<!--email Js send link-->
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("9y_K1B8XOqxRj0osy");
+   })();
+</script>
+
+
 </head>
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <i class="bi bi-list mobile-nav-toggle d-xl-none" style="background-color: black;"></i>
 
   <!-- ======= Header ======= --><br>
-  <header id="header">
+  <header id="header" style="background-color: black;">
     <div class="d-flex flex-column">
       <div class="profile">
-        <img src="assets/img/jeys.png" alt="img-fluid" class="img-fluid rounded-circle">
+        <img src="assets/img/jeys.png" alt="img-fluid" class="img-fluid rounded-circle"> 
         <h1 class="text-light"><a href="index.html">Jeremie S. Lafuente</a></h1>
         <center><h5 style="color: rgb(20,157,182)">Web Developer</h5></center>
         <div class="social-links mt-3 text-center">
@@ -106,9 +120,9 @@
   <!-- <video autoplay loop muted playsinline class="video-back">
     <source src="assets/img/hero_backs.mp4" type="video/mp4">
   </video> -->
-    <div class="hero-container" data-aos="fade-in">
-        <h1 style="-webkit-text-stroke: 2px white;" ><b>Jeremie L.</b></h1>
-        <p style="color: rgb(227, 227, 238);">I'm a <span class="typed" style="color: rgb(20,157,182)" data-typed-items="Adventurous...., Designer....,Mobile Developer....,Web Developer...."></span></p>
+    <div class="hero-container" data-aos="fade-in"><br><br><br>
+        <h1 style="-webkit-text-stroke: 2px white; text-align: left;" ><b>Jeremie L.</b></h1>
+        <p style="color: rgb(227, 227, 238);">I'm a <span class="typed" style="-webkit-text-stroke: rgb(12, 7, 92), 0, 0;" data-typed-items="Adventurous,Designer,Software Developer"></span></p>
         <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
         <a href="./assets/JeremieCV.pdf" target="_blank" download class="btnmayor btn btn1-get-started animated fadeInUp scrollto" style="color: rgb(240, 242, 243)" style="background-color: aqua;">  <i class="fa fa-download"></i>Download CV</a></center>
          </div>
@@ -339,7 +353,7 @@
 </div>
 <div id="preloader"></div>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-<br> <br><center><a href="./assets/JeremieRes.pdf" download class="btnmayor btn btn1-get-started animated fadeInUp scrollto"  style="color: rgb(12, 13, 14)"><i class="fa fa-download"></i>Download Resume</a></center>
+<br> <br><center><a href="./assets/JeremieRes.pdf" download class="btnmayor btn btn1-get-started animated fadeInUp scrollto"  style="color: rgb(232, 237, 243)"><i class="fa fa-download"></i>Download Resume</a></center>
 <!-- <br> <br> <center><a href="./assets/JeremieCV.pdf" download class="btnmayor btn btn-get-started animated fadeInUp scrollto" style="
    " style="color: rgb(12, 13, 14)"><i class="fa fa-download"></i>Download CV</a></center><br> -->
 </section>
@@ -672,7 +686,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="service-box" style="background-color: rgb(20,157,182)">
+            <div class="service-box" style="background-color: rgb(23,59,108)">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
               </div>
@@ -685,7 +699,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service-box" style="background-color: rgb(20,157,182)">
+            <div class="service-box" style="background-color: rgb(23,59,108)">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
               </div>
@@ -698,7 +712,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service-box" style="background-color: rgb(20,157,182)">
+            <div class="service-box" style="background-color: rgb(23,59,108)">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
               </div>
@@ -711,7 +725,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service-box" style="background-color: rgb(20,157,182)">
+            <div class="service-box" style="background-color: rgb(23,59,108)">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
               </div>
@@ -723,7 +737,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service-box" style="background-color: rgb(20,157,182)">
+            <div class="service-box" style="background-color: rgb(23,59,108)">
               <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
               </div>
@@ -993,7 +1007,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formsubmit.co/00eef34b544c3815334cea65ed17f78f" method="POST" role="form" class="php-email-form" style="background-color: rgb(251, 252, 252)">
+            <form action="submit"  method="POST" role="form" class="php-email-form" style="background-color: rgb(251, 252, 252)">
               <div class="section-title">
                 <center><h2>Send Message Me</h2><hr>
                 <p><span style="color: rgb(14, 61, 70);">Message me through the following:</span></p></center>
@@ -1014,14 +1028,14 @@
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" rows="10" id="message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <!-- <div class="error-message"></div> -->
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit" name="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" name="submit" onclick="sendmail()">Send Message</button></div>
             </form>
           </div>
 
@@ -1038,14 +1052,14 @@
   <footer id="footer" class="footer" style="background-color: black;">
     <div class="container">
       <div class="copyright">
-        <div class="social-links mt-3 text-center">
+        <!-- <div class="social-links mt-3 text-center">
           <a href="https://www.twitter.com/JeremieLafuent1?s=07" target="_blank"  class="twitter"><i class="bi bi-twitter"></i></a>
           <a href="https://www.facebook.com/jeremiexhucs.lafuente.5" target="_blank"  class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/jeremieleefuente6?igshid=ZDdkNTZintm=" target="_blank"  class="instagram"><i class="bi bi-instagram"></i></a>
           <a href="https://www.Tiktok.com/@lucky_masha08" target="_blank"  class="Tiktok"><i class="bi bi-tiktok"></i></a>
           <a href="https://www.Youtube.com/@jeremielafuente3218" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a>
           <a href="https://github.com/JEREMIELEE" target="_blank" class="github"><i class="bi bi-github"></i></a>
-        </div>
+        </div> -->
         &copy; Copyright <strong><span>Jeremie Lafuente iPortfolio</span></strong>. All Rights Received
       </div>
       <div class="credits">
@@ -1074,6 +1088,40 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+
+    function sendmail(){
+            var templateParams = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+            subject: document.getElementById('subject').value,
+            message: document.getElementById('message').value,
+            
+            };
+        
+            emailjs.send('service_ztzm1hl', 'template_9p7dyeg', templateParams,'9y_K1B8XOqxRj0osy')
+            .then(function(response) {
+
+              swal({
+                title: "Sent Successfully!",
+              })
+
+              console.log('SUCCESS!', response.status, response.text);
+            }, function(error) {
+
+              swal({
+                title: "Sent Successfully!",
+              })
+
+              console.log('FAILED...', error);
+            });
+            document.getElementById('name').value="";
+            document.getElementById('email').value="";
+            document.getElementById('subject').value="";
+            document.getElementById('message').value="";
+          }
+  </script>
 
 </body>
 
