@@ -346,8 +346,9 @@ h6 {
     padding-right: 12px;
   }
 }
-
-
+-------------------
+# Navigation Menu
+--------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
@@ -436,14 +437,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/heros-bk.png") top center;
+  background: url("../img/hero-bk.png") top center;
   background-size: cover;
-  background-color: #0f0f0f;
   padding-top: 0%;
 }
 
 #hero:before {
   content: "";
+  background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -771,16 +772,16 @@ body{
 }
 
 .resume .resume-logo{
-  background-image: url('assets/img/bisu.jpg');
-}
+  background-image: url('assets/img/bisu.jpg'); 
+} 
 
 .resume .resume-logo1{
-  background-image: url('assets/img/sta.jpg');
-}
+  background-image: url('assets/img/sta.jpg'); 
+} 
 
 .resume .resume-logo2{
-  background-image: url('assets/img/pes.jpg');
-}
+  background-image: url('assets/img/pes.jpg'); 
+} 
 
 .resume .resume-item h4 {
   line-height: 18px;
